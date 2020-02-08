@@ -1,16 +1,36 @@
-header{
-    color: white;
+
+.headercontainer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1500px;
+    height: 114px;
+    background-color: white;
 }
 body {
-    background-color: #e3e6e6;
+    background-image: url(../images/background.jpeg);
+    background-attachment: scroll;
+    height: 960px ;
+    width:960px;
   }
 .element {
-    color: white;
-    height: 5000px;
-    width: 5000px;
+    position: absolute;
+    left: 150px;
+    background-color: white;
+    color: grey;
+    height: 960px;
+    width: 960px;
+}
+.profileimg{
+padding-top: 0.5cm;
+padding-left: 0.7cm;
+padding-right: 0.7cm;
+padding-bottom: 0.7cm;
 }
 .name{
-    text-indent: 100px; 
+    position: absolute;
+    left:155px;
+    top:29px;
     font-size: 30px;
     font-family: 'Georgia';
     color: white;
@@ -22,44 +42,89 @@ body {
     font-weight: bold;
 }
 .links{
+    position:relative;
+	left:835px;
     text-decoration: none;
+    right: 0px;
+    font-size: 20px;
     font: "Arial";
-    text-align: right;
     color: grey;
     margin-right: 10px;
     margin-left: 10px;
-    
 }
+
 .form{
+    line-height: 45px;
     text-indent:100px; 
+    font-size: 25px;
     color: grey;
-    font: "Arial";
+    font:'Georgia';
 }
 .container {
     position: absolute;
+    top: 150px;
     left: 150px;
     right: 150px;
-    width: 550px;
+    width: 960px;
+    height:640px;
     border-radius: 5px;
     background-color: white;
     padding: 20px;
   }
+  .box{
+    margin-left: 5px;
+      width: 940px;
+      height: 20px;
+      font-size: 20px;
+  }
   textarea{
-      height: 200px;
-      width: 450px;
+      margin-left: 5px;
+      height: 280px;
+      width: 940px;
       outline-color: grey;
   }
   input[type=submit] {
-    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 19px;
     background-color: rgb(74, 195, 252);
     color: white;
-    padding: 10px 16px;
+    padding: 10px 22px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
 h2{
-    font-size: 27px;
+    font-size: 33px;
     font-family: 'Georgia';
     color: rgb(74, 195, 252);
 }
+.column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+    height: 340px;
+    width: 470px;
+    position: relative;
+    text-align: center;
+    color: black(3, 3, 3);
+  }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.centered {
+  text-decoration: none;
+  color: inherit;
+  color:  black(0, 0, 0);
+  background-color: white;
+  position: absolute;
+  bottom: 120px;
+  left: 20px;
+  right: 20px;
+  padding-left: 75px;
+  padding-right: 75px;
+  font-size: 30px;
+  }
