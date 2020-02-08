@@ -1,21 +1,27 @@
-
+/* white bar at the top */
 .headercontainer{
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 1500px;
+    width: 100%;
     height: 114px;
     background-color: white;
+    box-shadow: 3mm;
 }
+.innerheadercontainer{
+  margin:auto;
+  width: 960px;
+}
+/* whole document */
 body {
     background-image: url(../images/background.jpeg);
     background-attachment: scroll;
-    height: 960px ;
-    width:960px;
   }
+  /* profile page white box */
 .element {
     position: absolute;
-    left: 150px;
+    left: 20%;
+    right:20%;
     background-color: white;
     color: grey;
     height: 960px;
@@ -28,8 +34,6 @@ padding-right: 0.7cm;
 padding-bottom: 0.7cm;
 }
 .name{
-    position: absolute;
-    left:155px;
     top:29px;
     font-size: 30px;
     font-family: 'Georgia';
@@ -43,16 +47,15 @@ padding-bottom: 0.7cm;
 }
 .links{
     position:relative;
-	left:835px;
+    left: 370px;
     text-decoration: none;
-    right: 0px;
     font-size: 20px;
     font: "Arial";
     color: grey;
     margin-right: 10px;
     margin-left: 10px;
 }
-
+/* contact form */
 .form{
     line-height: 45px;
     text-indent:100px; 
@@ -60,17 +63,26 @@ padding-bottom: 0.7cm;
     color: grey;
     font:'Georgia';
 }
+/* portfolio white background */
 .container {
-    position: absolute;
     top: 150px;
-    left: 150px;
-    right: 150px;
+   margin: 10px auto;
     width: 960px;
-    height:640px;
+    height:1100px;
     border-radius: 5px;
     background-color: white;
     padding: 20px;
   }
+   /* contact white background */
+.ccontainer {
+  margin: 90px auto;
+  width: 960px;
+  height:640px;
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+  /* name and email input boxes */
   .box{
     margin-left: 5px;
       width: 940px;
@@ -83,6 +95,7 @@ padding-bottom: 0.7cm;
       width: 940px;
       outline-color: grey;
   }
+  /* the submit button */
   input[type=submit] {
     margin-left: 5px;
     margin-top: 10px;
@@ -94,11 +107,14 @@ padding-bottom: 0.7cm;
     border-radius: 4px;
     cursor: pointer;
   }
+  /* About, Portfolio, and Contact headings */
 h2{
     font-size: 33px;
     font-family: 'Georgia';
     color: rgb(74, 195, 252);
 }
+
+/* this is the grid for the portfolio */
 .column {
     float: left;
     width: 100%;
