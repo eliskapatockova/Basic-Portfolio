@@ -33,14 +33,16 @@ border-radius: 5px;
   font-size: 25px;
 }
 h3{
-  position: fixed;
-  left: 330px;
-  bottom: 300px;
+  position: absolute;
+  right: 520px;
+  top: 255px;
+  width: 300px;
 }
 ul{
-  position: fixed;
-  left: 350px;
-  bottom: 175px;
+  position: absolute;
+  right: 380px;
+  top: 310px;
+  width: 400px;
 }
 .par1{
   position: absolute;
@@ -50,10 +52,21 @@ ul{
 .par2{
   width: 300px;
   text-align: center;
-  position: fixed;
-  top: 584px;
-  left: 850px;
+  position: absolute;
+  top: 255px;
+  right: 20px;
   line-height: 40px;
+}
+.linksinindex:hover { 
+  background-color: white;
+  padding: 5px;
+  color: rgb(74, 195, 252);
+  
+}
+.linksinindex{
+  text-decoration: none;
+  color: grey;
+  border-radius: 7px;
 }
 .name{
     top:29px;
@@ -143,6 +156,10 @@ ul{
     border-radius: 4px;
     cursor: pointer;
   }
+  input[type=submit]:hover{
+    background-color: rgb(2, 174, 253);
+  }
+
   /* About, Portfolio, and Contact headings */
 h2{
     font-size: 33px;
@@ -171,7 +188,7 @@ h2{
 .centered {
   text-decoration: none;
   color: inherit;
-  color:  black(0, 0, 0);
+  color: black(53, 52, 52);
   background-color: white;
   position: absolute;
   bottom: 185px;
@@ -180,6 +197,11 @@ h2{
   padding-left: 75px;
   padding-right: 75px;
   font-size: 30px;
+  }
+  .centered:hover {
+  background-color: white;
+  padding: 8px;
+  color: rgb(74, 195, 252);
   }
 .wrapper{
   min-height: 100%;
@@ -200,13 +222,4 @@ h2{
     background-color: rgb(150, 150, 150);
     z-index: 2;
   }
-  .footershaddow{
-    color:  rgb(150, 150, 150);
-    left:0px;
-    bottom:50px;
-    width: 100%;
-    height: 5px;
-    background-color: rgb(74, 195, 252);
-    position: fixed;
-    z-index: 1;
-  }
+  
