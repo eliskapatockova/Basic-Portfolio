@@ -8,9 +8,30 @@
     background-color: white;
     box-shadow:0 0 3mm 0 grey;
 }
+.name{
+  position: absolute;
+  top:29px;
+  font-size: 30px;
+  font-family: 'Georgia';
+  color: white;
+  background-color: rgb(74, 195, 252);
+  padding: 25px 18px;  
+  font-weight: bold;
+}
+.links{
+  position:relative;
+  left: 630px;
+  text-decoration: none;
+  font-size: 20px;
+  font: "Arial";
+  color: grey;
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .innerheadercontainer{
   margin:auto;
   width: 960px;
+  height: 114px;
 }
 /* whole document */
 body {
@@ -72,28 +93,7 @@ ul{
   color: grey;
   border-radius: 7px;
 }
-.name{
-    top:29px;
-    font-size: 30px;
-    font-family: 'Georgia';
-    color: white;
-    background-color: rgb(74, 195, 252);
-    padding-top: 25px;  
-    padding-bottom: 25px;  
-    padding-left: 18px;  
-    padding-right: 18px;  
-    font-weight: bold;
-}
-.links{
-    position:relative;
-    left: 330px;
-    text-decoration: none;
-    font-size: 20px;
-    font: "Arial";
-    color: grey;
-    margin-right: 10px;
-    margin-left: 10px;
-}
+
 /* contact form */
 .form{
     line-height: 45px;
@@ -209,14 +209,14 @@ h2{
   }
 .wrapper{
   min-height: 100%;
-  margin-bottom: -38px;
+  margin-bottom: -34px;
 }
 .push{
-  height: 32px;
+  height: 35px;
 }
   .footer{
     border-top: 5px solid rgb(74, 195, 252);
-    height: 32px;
+    height: 35px;
     width: 100%;
     left: 0px;
     bottom:0px;
