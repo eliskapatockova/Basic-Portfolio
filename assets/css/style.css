@@ -37,17 +37,20 @@ h3{
   right: 520px;
   top: 255px;
   width: 300px;
+  font: 'Georgia';
 }
 ul{
   position: absolute;
   right: 380px;
   top: 310px;
   width: 400px;
+  font: 'Georgia';
 }
 .par1{
   position: absolute;
   top: 18px;
   line-height: 40px;
+  font: 'Georgia';
 }
 .par2{
   width: 300px;
@@ -56,6 +59,7 @@ ul{
   top: 255px;
   right: 20px;
   line-height: 40px;
+  font: 'Georgia';
 }
 .linksinindex:hover { 
   background-color: white;
