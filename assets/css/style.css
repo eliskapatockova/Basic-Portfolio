@@ -8,9 +8,14 @@
     background-color: white;
     box-shadow:0 0 3mm 0 grey;
 }
+.innerheadercontainer{
+  margin:auto;
+  width: 960px;
+  height: 114px;
+}
 .name{
   position: absolute;
-  top:29px;
+  bottom: 0px;
   font-size: 30px;
   font-family: 'Georgia';
   color: white;
@@ -28,11 +33,7 @@
   margin-right: 10px;
   margin-left: 10px;
 }
-.innerheadercontainer{
-  margin:auto;
-  width: 960px;
-  height: 114px;
-}
+
 /* whole document */
 body {
   height: 100%;
@@ -49,7 +50,7 @@ border-radius: 5px;
 .itextarea{
   width: 820px;
   position: absolute;
-  font: 'Georgia';
+  font: "Arial";
   color: grey;
   font-size: 25px;
 }
@@ -65,13 +66,13 @@ ul{
   right: 380px;
   top: 310px;
   width: 400px;
-  font: 'Georgia';
+  font: "Arial";
 }
 .par1{
   position: absolute;
   top: 18px;
   line-height: 40px;
-  font: 'Georgia';
+  font: "Arial";
 }
 .par2{
   width: 300px;
@@ -80,7 +81,7 @@ ul{
   top: 255px;
   right: 20px;
   line-height: 40px;
-  font: 'Georgia';
+  font: "Arial";
 }
 .linksinindex:hover { 
   background-color: white;
@@ -100,7 +101,7 @@ ul{
     text-indent:100px; 
     font-size: 25px;
     color: grey;
-    font:'Georgia';
+    font: "Arial";
 }
 /* portfolio white background */
 .icontainer {
@@ -145,7 +146,7 @@ ul{
       height: 280px;
       width: 850px;
       outline-color: grey;
-      font:'Georgia';
+      font: "Arial";
       font-size: 20px;
   }
   /* the submit button */
@@ -216,6 +217,7 @@ h2{
 }
   .footer{
     border-top: 5px solid rgb(74, 195, 252);
+    font: "Arial";
     height: 35px;
     width: 100%;
     left: 0px;
